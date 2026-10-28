@@ -1,0 +1,12 @@
+# Local dataset copies, generated outputs, and sensitive/third-party media
+local_data/
+data/
+images/
+original_images/
+*.pyc
+__pycache__/
+.pytest_cache/
+.DS_Store
+.env
+.venv/
+venv/
