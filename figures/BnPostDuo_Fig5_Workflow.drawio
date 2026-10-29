@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mxfile host="app.diagrams.net" agent="Claude" version="24.7.17" type="device">
+  <diagram id="bnpostduo-fig5-corrected" name="Fig5_Workflow_Corrected">
+    <mxGraphModel dx="1000" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="940" pageHeight="571" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="panel1" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;fillColor=#FDF0EE;strokeColor=#D9796E;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="16" y="16" width="200" height="507" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel1_hdr" value="&lt;b&gt;Data Collection&lt;/b&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;fontColor=#1A1A1A;fillColor=#F6C9C2;strokeColor=#D9796E;strokeWidth=1;verticalAlign=bottom;align=center;spacingBottom=7;" vertex="1" parent="panel1">
+          <mxGeometry x="8" y="8" width="184" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel1_num" value="&lt;b&gt;01&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Arial;fontSize=11;fontColor=#FFFFFF;fillColor=#D9796E;strokeColor=#D9796E;strokeWidth=1;" vertex="1" parent="panel1">
+          <mxGeometry x="87" y="14" width="26" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel1_i1" value="Public Facebook pages&lt;br&gt;and groups" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#D9796E;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel1">
+          <mxGeometry x="12" y="86" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel1_i2" value="Manual image and&lt;br&gt;caption collection" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#D9796E;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel1">
+          <mxGeometry x="12" y="176.75" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel1_i3" value="Collection period:&lt;br&gt;2025&amp;#8211;2026" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#D9796E;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel1">
+          <mxGeometry x="12" y="267.5" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel1_i4" value="Initial collection:&lt;br&gt;&lt;b&gt;4,800 posts&lt;/b&gt;" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#D9796E;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel1">
+          <mxGeometry x="12" y="358.25" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel1_i5" value="8 categories&lt;br&gt;(600 posts initially each)" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#D9796E;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel1">
+          <mxGeometry x="12" y="449" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel2" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;fillColor=#EDF3FB;strokeColor=#5B8DC4;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="252" y="16" width="200" height="507" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel2_hdr" value="&lt;b&gt;OCR, Labeling &amp;amp; QC&lt;/b&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;fontColor=#1A1A1A;fillColor=#C6DBF1;strokeColor=#5B8DC4;strokeWidth=1;verticalAlign=bottom;align=center;spacingBottom=7;" vertex="1" parent="panel2">
+          <mxGeometry x="8" y="8" width="184" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel2_num" value="&lt;b&gt;02&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Arial;fontSize=11;fontColor=#FFFFFF;fillColor=#5B8DC4;strokeColor=#5B8DC4;strokeWidth=1;" vertex="1" parent="panel2">
+          <mxGeometry x="87" y="14" width="26" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel2_i1" value="Original Facebook images" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#5B8DC4;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel2">
+          <mxGeometry x="12" y="86" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel2_i2" value="EasyOCR extraction" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#5B8DC4;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel2">
+          <mxGeometry x="12" y="146.5" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel2_i3" value="Preserve &lt;b&gt;raw_ocr&lt;/b&gt;" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#5B8DC4;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel2">
+          <mxGeometry x="12" y="207" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel2_i4" value="Curate &lt;b&gt;main_ocr&lt;/b&gt;;&lt;br&gt;label 4,800 posts" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#5B8DC4;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel2">
+          <mxGeometry x="12" y="267.5" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel2_i5" value="80 matching pHash groups&lt;br&gt;(172 flagged records)" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=12;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#5B8DC4;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel2">
+          <mxGeometry x="12" y="328" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel2_i6" value="Manual review:&lt;br&gt;&lt;b&gt;92 duplicates removed&lt;/b&gt;" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=12;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#5B8DC4;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel2">
+          <mxGeometry x="12" y="388.5" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel2_i7" value="Verify records, CSVs&lt;br&gt;and image metadata" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=12;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#5B8DC4;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel2">
+          <mxGeometry x="12" y="449" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel3" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;fillColor=#EEF7ED;strokeColor=#5FA35A;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="488" y="16" width="200" height="507" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel3_hdr" value="&lt;b&gt;Annotation &amp;amp; Agreement&lt;/b&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;fontColor=#1A1A1A;fillColor=#CBE6C8;strokeColor=#5FA35A;strokeWidth=1;verticalAlign=bottom;align=center;spacingBottom=7;" vertex="1" parent="panel3">
+          <mxGeometry x="8" y="8" width="184" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel3_num" value="&lt;b&gt;03&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Arial;fontSize=11;fontColor=#FFFFFF;fillColor=#5FA35A;strokeColor=#5FA35A;strokeWidth=1;" vertex="1" parent="panel3">
+          <mxGeometry x="87" y="14" width="26" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel3_i1" value="&lt;b&gt;Independent reliability study&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#2C5E29;align=center;verticalAlign=middle;" vertex="1" parent="panel3">
+          <mxGeometry x="6" y="88" width="188" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel3_i2" value="Sample from processed&lt;br&gt;4,708-post dataset" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#5FA35A;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel3">
+          <mxGeometry x="12" y="114" width="176" height="46" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel3_i3" value="480 posts selected&lt;br&gt;(60 per class)" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#5FA35A;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel3">
+          <mxGeometry x="12" y="174" width="176" height="46" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel3_i4" value="" style="line;html=1;strokeColor=#5FA35A;strokeWidth=1;dashed=1;dashPattern=3 3;" vertex="1" parent="panel3">
+          <mxGeometry x="12" y="235" width="176" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel3_i5" value="&lt;b&gt;Blinded 3-rater evaluation&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#2C5E29;align=center;verticalAlign=middle;" vertex="1" parent="panel3">
+          <mxGeometry x="6" y="251" width="188" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel3_i6" value="Use images, captions&lt;br&gt;and curated OCR" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=12;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#5FA35A;strokeWidth=1.2;align=center;verticalAlign=middle;dashed=1;dashPattern=4 3;" vertex="1" parent="panel3">
+          <mxGeometry x="12" y="281" width="176" height="43" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel3_i7" value="3 independent votes&lt;br&gt;(original labels hidden)" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=12;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#5FA35A;strokeWidth=1.2;align=center;verticalAlign=middle;dashed=1;dashPattern=4 3;" vertex="1" parent="panel3">
+          <mxGeometry x="12" y="337" width="176" height="43" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel3_i8" value="Majority votes matched&lt;br&gt;original labels: 480/480" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=12;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#5FA35A;strokeWidth=1.2;align=center;verticalAlign=middle;dashed=1;dashPattern=4 3;" vertex="1" parent="panel3">
+          <mxGeometry x="12" y="393" width="176" height="43" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel3_i9" value="&lt;b&gt;Fleiss&amp;#8217; &amp;#954; = 0.8905&lt;/b&gt;" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=12;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#5FA35A;strokeWidth=1.2;align=center;verticalAlign=middle;dashed=1;dashPattern=4 3;" vertex="1" parent="panel3">
+          <mxGeometry x="12" y="449" width="176" height="43" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel4" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;fillColor=#EAF7F9;strokeColor=#3FA7B4;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="724" y="16" width="200" height="507" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel4_hdr" value="&lt;b&gt;Validated Public Dataset&lt;/b&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;fontColor=#1A1A1A;fillColor=#BDE6EC;strokeColor=#3FA7B4;strokeWidth=1;verticalAlign=bottom;align=center;spacingBottom=7;" vertex="1" parent="panel4">
+          <mxGeometry x="8" y="8" width="184" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel4_num" value="&lt;b&gt;04&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Arial;fontSize=11;fontColor=#FFFFFF;fillColor=#3FA7B4;strokeColor=#3FA7B4;strokeWidth=1;" vertex="1" parent="panel4">
+          <mxGeometry x="87" y="14" width="26" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel4_i1" value="&lt;b&gt;Final 4,708 posts&lt;/b&gt;&lt;br&gt;(8 categories)" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#3FA7B4;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel4">
+          <mxGeometry x="12" y="86" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel4_i2" value="Captions and&lt;br&gt;category labels" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#3FA7B4;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel4">
+          <mxGeometry x="12" y="147.833" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel4_i3" value="&lt;b&gt;raw_ocr&lt;/b&gt; and &lt;b&gt;main_ocr&lt;/b&gt;" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#3FA7B4;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel4">
+          <mxGeometry x="12" y="209.667" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel4_i4" value="pHash and image&lt;br&gt;dimensions" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#3FA7B4;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel4">
+          <mxGeometry x="12" y="271.5" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel4_i5" value="9 validated CSV files&lt;br&gt;(8 classes + combined)" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=12;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#3FA7B4;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel4">
+          <mxGeometry x="12" y="333.333" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel4_i6" value="GitHub: scripts,&lt;br&gt;reports and documentation" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=12;fontColor=#1A1A1A;fillColor=#FFFFFF;strokeColor=#3FA7B4;strokeWidth=0.8;align=center;verticalAlign=middle;" vertex="1" parent="panel4">
+          <mxGeometry x="12" y="395.167" width="176" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel4_i7" value="&lt;i&gt;Source images are&lt;br&gt;not redistributed&lt;/i&gt;" style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#1D5E66;align=center;verticalAlign=middle;" vertex="1" parent="panel4">
+          <mxGeometry x="8" y="457" width="184" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow12" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#7F8A96;strokeWidth=2.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="panel1" target="panel2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow23" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#7F8A96;strokeWidth=2.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="panel2" target="panel3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow34" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=1;endSize=7;strokeColor=#7F8A96;strokeWidth=2.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="panel3" target="panel4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="caption" value="&lt;b&gt;Fig. 5.&lt;/b&gt;&amp;nbsp;BnPostDuo data collection, OCR curation, annotation, duplicate filtering and validation workflow." style="text;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=13;fontColor=#1A1A1A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="16" y="537" width="908" height="22" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
