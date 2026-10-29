@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the published Mendeley Data dataset version used in your research."
+title: "BnPostDuo: A Bengali Multimodal Social Media Dataset"
+type: dataset
+authors:
+  - given-names: "Imam Abu"
+    family-names: "Zubaer"
+  - given-names: "Tafhimul"
+    family-names: "Azwad"
+  - given-names: "Fatema Jannat"
+    family-names: "Rup"
+  - given-names: "Poushi"
+    family-names: "Das"
+  - given-names: "Md. Mahfuzur"
+    family-names: "Rahman"
+url: "https://data.mendeley.com/datasets/6678wc3bs7"
+repository-code: "https://github.com/Azu2Bro/BnPostDuo"
