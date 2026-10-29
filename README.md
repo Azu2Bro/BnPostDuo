@@ -39,9 +39,11 @@ See [the field dictionary](documentation/data_dictionary.md).
 
 ## Human annotation
 
-Three annotators independently assessed a **stratified 480-post sample** (60 initially sampled from each of the eight categories). The votes yield **Fleiss' κ = 0.8905** (411 unanimous and 69 two-to-one decisions). All 480 sample records remain in Version 2.
+**Initial labeling:** The research team reports that three annotators categorized the original **4,800 posts** into eight predefined content categories. Ambiguous category assignments were discussed to select an appropriate final label. These initial labeling activities are distinct from the separate reliability assessment.
 
-This statistic describes the **480 sampled records**, not a separate three-vote assessment of all 4,800 original posts. See [annotation notes](documentation/annotation_and_agreement.md).
+**Independent reliability assessment:** After duplicate removal, a stratified sample of **480 records was selected from the 4,708-record preprocessed dataset** (60 from each of eight categories). Three annotators independently evaluated these records with the original category labels hidden. The recorded votes yield **Fleiss' κ = 0.8905** (411 unanimous and 69 two-to-one). The majority-vote labels matched the stored labels for all 480 sampled records. This κ applies to **the 480-post assessment**, not the full 4,800-post labeling stage.
+
+See [annotation and agreement documentation](documentation/annotation_and_agreement.md).
 
 ## Repository contents
 
@@ -52,6 +54,9 @@ This statistic describes the **480 sampled records**, not a separate three-vote 
 | `scripts/validate_version2.py` | Recheck Version 2 counts, required columns, missing values, repeated hashes and IDs |
 | `scripts/calculate_fleiss_kappa.py` | Recalculate agreement from the separately held annotation votes |
 | `reports/version2_validation.md` | Results checked on the supplied preprocessed CSV files |
+| `figures/` | Final four-panel workflow diagram in editable draw.io format |
+| `CITATION.cff` | Citation metadata; use Mendeley version-specific DOI |
+| `LICENSE` | License for repository's original software scripts only |
 
 The scripts are **reproducibility/verification utilities prepared after the dataset's construction**. Their publication does not imply they are the exact historical data-collection or OCR scripts.
 
@@ -65,7 +70,7 @@ python scripts/validate_version2.py --csv local_data/COMBINED_V2.csv --output lo
 python scripts/calculate_fleiss_kappa.py --csv local_data/annotation_votes.csv --annotators A1_category A2_category A3_category --output local_data/agreement.json
 ```
 
-The 480-record annotation-vote CSV is required for the second command and is **not included in the released dataset** unless the research team separately publishes an appropriately reviewed copy.
+The 480-record annotation-vote CSV is required for the second command; it is **not included in this repository at present**. The research team should approve a privacy-reviewed, vote-only public extract before it is released.
 
 For recreating V2 from an authorized copy of V1, see [the preprocessing instructions](documentation/preprocessing.md). The final keep/remove decisions must be checked against the researchers' manual review records.
 
@@ -74,5 +79,8 @@ For recreating V2 from an authorized copy of V1, see [the preprocessing instruct
 The research was based on third-party public Facebook posts. Public visibility does not automatically provide redistribution rights. **Original images are not included**, and the pHash fields do not support direct image-model training. See [data access and ethical notes](documentation/data_access_and_ethics.md). Consult the current Mendeley record for the **actual license of the published dataset**; no third-party content is licensed merely by appearing in this GitHub repository.
 
 ## Citation
+
+This repository provides [CITATION.cff](CITATION.cff) and a [software-only LICENSE](LICENSE). They do not license Facebook images, captions, or the official Mendeley dataset.
+
 
 Cite the **Mendeley Data dataset version actually used** in your work. Currently documented published record: https://doi.org/10.17632/6678wc3bs7.1. A Version 2 citation should be updated with its own published DOI.
