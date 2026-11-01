@@ -4,6 +4,21 @@ BnPostDuo was constructed from **4,800 Bengali Facebook posts** collected from p
 
 **This GitHub repository provides supporting documentation, reproducibility utilities, and quality-control summaries.** The public research data are hosted separately on Mendeley Data. The original Facebook images are **not redistributed**.
 
+## Data in Brief manuscript authors
+
+The **Data in Brief manuscript** lists the following **eight authors**, in manuscript order:
+
+1. Imam Abu Zubaer
+2. Tafhimul Azwad
+3. Fatema Jannat Rup
+4. Poushi Das
+5. Mahfuzulhoq Chowdhury
+6. Dipta Deb Nath
+7. Md. Tanvir Rahaman Sani
+8. Jannatul Ferdous
+
+**Authorship note:** The eight-person article author list and the contributor list on the Mendeley Data deposit are separate records. Cite the published Mendeley dataset using its official version-specific metadata; the names above identify the article manuscript authors. The research team should ensure manuscript and submission-system authorship details agree.
+
 ## Dataset access and versions
 
 - **Mendeley Data, published Version 2 (current public dataset):** [BnPostDuo Version 2](https://data.mendeley.com/datasets/6678wc3bs7/2) — **4,708 records** after duplicate screening and removal. This is the dataset version described in the current manuscript.
