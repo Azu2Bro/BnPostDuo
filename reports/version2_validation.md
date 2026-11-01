@@ -54,7 +54,7 @@ These maximums must be considered when updating manuscript figures and narrative
 1. **Two OCR-field differences** were observed between the previously supplied annotation CSV and final V2 records: `marketing/320.jpg` (raw and curated OCR) and `motivational/310.jpg` (raw OCR). The categorical votes were unchanged. The research team should document when these field corrections happened.
 2. Removing exact-pHash duplicates does not establish that all visually similar images with **different** hashes are absent.
 3. Image pixels were not included in the verification files: manual duplicate classifications and OCR accuracy were **not independently visually validated**.
-4. The preprocessed V2 release **is not yet documented here as publicly deposited**. Until Mendeley Version 2 is published and its DOI is known, the existing version-specific DOI points only to the 4,800-record **Version 1**.
-5. Raw researcher records (including original image files and underlying human votes) are intentionally not included in this public GitHub repository.
+4. The preprocessed **Version 2 is publicly listed on Mendeley Data** at https://data.mendeley.com/datasets/6678wc3bs7/2 (4,708 records). Version 1 remains a distinct 4,800-record release; keep citations version-specific.
+5. Raw researcher records (including original image files and underlying human votes) are not in the public GitHub repository. Image-based research access may be requested via https://forms.gle/wKSdaqRD4rpT5T6f7 and fulfilled privately through restricted Google Drive **only for approved requests where sharing is authorized**.
 
 **Publication note:** When reporting these results, clearly distinguish research-team manual verification from code-generated structural checks.
