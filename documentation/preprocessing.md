@@ -40,4 +40,4 @@ python scripts/validate_version2.py --csv local_data/version2/COMBINED_V2.csv --
 | Entertainment | 600 | 3 | 597 |
 | **Total** | **4,800** | **92** | **4,708** |
 
-The actual V2 Mendeley DOI must replace the placeholder in manuscript citations after publication.
+The deduplicated **Version 2 (4,708 records) is now published** on [Mendeley Data](https://data.mendeley.com/datasets/6678wc3bs7/2). Cite this release, rather than Version 1, when reporting results derived from the 4,708-record dataset.
