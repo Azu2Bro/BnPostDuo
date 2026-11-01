@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite BnPostDuo Mendeley Data Version 2 when using the 4,708-record dataset. Previous Version 1 contains 4,800 records."
+message: "For the 4,708-record dataset, cite the official Mendeley Data Version 2 record. The Data in Brief manuscript has eight authors, listed separately in README.md; the journal author list is not a replacement for the Mendeley dataset creator metadata."
 title: "BnPostDuo: A Bengali Multimodal Social Media Dataset"
 type: dataset
 authors:
