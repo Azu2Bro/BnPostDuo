@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the published Mendeley Data dataset version used in your research."
+message: "Please cite BnPostDuo Mendeley Data Version 2 when using the 4,708-record dataset. Previous Version 1 contains 4,800 records."
 title: "BnPostDuo: A Bengali Multimodal Social Media Dataset"
 type: dataset
 authors:
@@ -13,5 +13,6 @@ authors:
     family-names: "Das"
   - given-names: "Md. Mahfuzur"
     family-names: "Rahman"
-url: "https://data.mendeley.com/datasets/6678wc3bs7"
+version: "2"
+url: "https://data.mendeley.com/datasets/6678wc3bs7/2"
 repository-code: "https://github.com/Azu2Bro/BnPostDuo"
