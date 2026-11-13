@@ -26,13 +26,13 @@ The **Data in Brief manuscript** lists the following **eight authors**, in manus
 
 GitHub does not host a separate copy of the full CSV dataset. Download the officially released data from Mendeley Data.
 
-## Requesting access to the original images
+## Original image availability
 
-The **published Mendeley Data Version 2 contains CSV records and image metadata, not the original Facebook images**. Researchers who need images for image-based or image–text experiments may submit a request through the **[BnPostDuo image-access request form](https://forms.gle/wKSdaqRD4rpT5T6f7)**.
+The **published Mendeley Data Version 2 contains CSV records and image metadata, not the original Facebook images**. The BnPostDuo team does not hold the necessary rights to redistribute the original third-party Facebook images. Therefore, the original images are not made available by the research team.
 
-The research team reviews requests. **If a request is approved and the team is authorized to share the relevant images**, access is provided by a **restricted Google Drive image-folder link**, shared privately with the approved researcher. The Drive link is **not published openly** in this repository. Form submission does not guarantee access; access and permitted uses are subject to relevant rights, privacy, and platform restrictions.
+The released captions and OCR text support Bengali social media content analysis, but studies requiring original image pixels must obtain any necessary images independently and lawfully, subject to applicable rights and platform requirements.
 
-Full request and access procedure: [documentation/image_access.md](documentation/image_access.md).
+See [the original image availability note](documentation/image_access.md).
 
 ## Version 2 at a glance
 
@@ -78,7 +78,7 @@ See [annotation and agreement documentation](documentation/annotation_and_agreem
 | `scripts/calculate_fleiss_kappa.py` | Recalculate agreement from the separately held annotation votes |
 | `reports/version2_validation.md` | Results checked on the supplied preprocessed CSV files |
 | `figures/` | Final four-panel workflow diagram in editable draw.io format |
-| `documentation/image_access.md` | Google Form request procedure and controlled Google Drive delivery policy |
+| `documentation/image_access.md` | Original image availability and rights information |
 | `CITATION.cff` | Citation metadata; use Mendeley version-specific DOI |
 | `LICENSE` | License for repository's original software scripts only |
 
@@ -100,7 +100,7 @@ For recreating V2 from an authorized copy of V1, see [the preprocessing instruct
 
 ## Data access, reuse and privacy
 
-The research was based on third-party public Facebook posts. Public visibility does not automatically provide redistribution rights. **Original images are not included in the Mendeley or GitHub public releases**; use the [image-access request form](https://forms.gle/wKSdaqRD4rpT5T6f7) to ask the team about controlled access. Approved, authorized requests are fulfilled privately through Google Drive. The pHash field does not reconstruct source images. See [data access and ethical notes](documentation/data_access_and_ethics.md). Consult Mendeley for the applicable data license; this GitHub repository does not license third-party material.
+The research was based on third-party public Facebook posts. Public visibility does not automatically provide redistribution rights. **Original Facebook images are not included in the Mendeley or GitHub public releases and are not made available by the research team.** The released CSV records include captions, OCR text, labels, and image metadata; these fields may carry independent third-party rights or privacy obligations. The pHash field does not reconstruct source images. See [data access and ethical notes](documentation/data_access_and_ethics.md). Consult Mendeley for the applicable data license; this GitHub repository does not license third-party material.
 
 ## Citation
 
